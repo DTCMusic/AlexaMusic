@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "12349641"))
 API_HASH = getenv("API_HASH", "0f9159afc920f9c592df555e4b1cb73b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7423523649:AAGSOzLiMBoAFhbdRJX9jKju4MleGkHWySs")
+BOT_TOKEN = getenv("BOT_TOKEN", "6757828951:AAE9al3IyT3WowOFGHSqHK19hw077z6BF4o")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://agautevdragitevsvh:pJSptT6jE0pcw9a4@cluster0.de4uc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
@@ -31,17 +31,17 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002168356385"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME" "Musicso2Robot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME" "nezrinmusicbot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6634423600").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-9f135b26-5fa2-443d-aa24-3563d5e6c00a")
 
-BOT_ID = getenv("BOT_ID", "7423523649")
+BOT_ID = getenv("BOT_ID", "6757828951")
 
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "nezrinny")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "nezrin1y")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/DTCMusic/AlexaMusic")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -67,7 +67,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamAlexa/AlexaMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/DTCMusic/AlexaMusic")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 
